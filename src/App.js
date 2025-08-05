@@ -76,8 +76,7 @@ const Projects = () => (
 const Contact = () => (
   <AnimatedPage>
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:avinash12261999@gmail.com" style={{ color: "cyan" }}>avinash12261999@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/avinash1agarwal" target="_blank" rel="noreferrer" style={{ color: "cyan" }}>@avinash1agarwal</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/avinash1agarwal" target="_blank" rel="noreferrer" style={{ color: "cyan" }}>Avinash Agarwal</a></p>
   </AnimatedPage>
 );
 
