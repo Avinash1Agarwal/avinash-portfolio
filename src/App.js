@@ -74,7 +74,14 @@ const Projects = () => (
     <p>Health Monitoring System</p>
   </AnimatedPage>
 );
-
+const Contact = () => (
+  <AnimatedPage>
+    <h2>Contact</h2>
+    <p>You can reach me at:</p>
+    <p>Email: <a href="mailto:avinash12261999@gmail.com" style={{ color: "#0af" }}>avinash12261999@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/avinash1agarwal/" target="_blank" rel="noreferrer" style={{ color: "#0af" }}>linkedin.com/in/avinash1agarwal</a></p>
+  </AnimatedPage>
+);
 
 const AnimatedRoutes = () => {
   const location = useLocation();
