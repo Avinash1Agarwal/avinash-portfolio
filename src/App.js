@@ -49,40 +49,6 @@ const Home = () => (
 );
 
 
-const Skills = () => {
-  const skills = ["SQL", "Python", "Power BI", "JIRA", "Salesforce", "ERP"];
-  return (
-    <AnimatedPage>
-      <h2>Skills</h2>
-      <ul style={{ listStyle: "none", padding: 0 }}>
-        {skills.map((skill, i) => (
-          <motion.li key={i} whileHover={{ scale: 1.1 }} style={{ margin: "0.5rem 0" }}>
-            {skill}
-          </motion.li>
-        ))}
-      </ul>
-    </AnimatedPage>
-  );
-};
-
-
-const Projects = () => (
-  <AnimatedPage>
-    <h2>Projects</h2>
-    <p>HighRadius Receivables Cloud Implementation</p>
-    <p>ERP Data Analysis & Migration</p>
-    <p>Health Monitoring System</p>
-  </AnimatedPage>
-);
-const Contact = () => (
-  <AnimatedPage>
-    <h2>Contact</h2>
-    <p>You can reach me at:</p>
-    <p>Email: <a href="mailto:avinash12261999@gmail.com" style={{ color: "#0af" }}>avinash12261999@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/avinash1agarwal/" target="_blank" rel="noreferrer" style={{ color: "#0af" }}>linkedin.com/in/avinash1agarwal</a></p>
-  </AnimatedPage>
-);
-
 const AnimatedRoutes = () => {
   const location = useLocation();
   return (
