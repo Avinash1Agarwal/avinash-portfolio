@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Skills, Projects } from "./SkillsProjects";
-
+import Certifications from "./Certifications";
 const pageVariants = {
   initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
@@ -83,6 +83,7 @@ const AnimatedRoutes = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/certifications" element={<Certifications />} />
       </Routes>
     </AnimatePresence>
   );
@@ -95,6 +96,7 @@ export default function App() {
         <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link>
         <Link to="/skills" style={{ color: "white", textDecoration: "none" }}>Skills</Link>
         <Link to="/projects" style={{ color: "white", textDecoration: "none" }}>Projects</Link>
+        <Link to="/certifications" style={{ color: "white", textDecoration: "none" }}>Certifications</Link>
         <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>Contact</Link>
       </nav>
       <div style={{ paddingTop: "5rem" }}>
