@@ -25,14 +25,28 @@ const AnimatedPage = ({ children }) => (
 
 const Home = () => (
   <AnimatedPage>
-    <h1 style={{ fontSize: "3rem" }}>Avinash Agarwal</h1>
-    <p>Product Implementation Consultant @ HighRadius</p>
-    <p style={{ maxWidth: 600, margin: "1rem auto", lineHeight: 1.6 }}>
-      I contribute to the mission of transforming finance and accounting functions
-      from traditional cost centers into strategic value drivers.
+    <img
+      src="/profile.jpg"
+      alt="Avinash Agarwal"
+      style={{
+        width: "150px",
+        height: "150px",
+        objectFit: "cover",
+        borderRadius: "50%",
+        border: "2px solid white",
+        marginBottom: "1rem"
+      }}
+    />
+    <h1 style={{ fontSize: "2.5rem", marginBottom: "0.5rem" }}>Avinash Agarwal</h1>
+    <p style={{ fontWeight: "bold", color: "lightgray" }}>Consultant @ HighRadius</p>
+    <p style={{ maxWidth: "700px", margin: "1.5rem auto", lineHeight: 1.6, fontSize: "1rem", color: "#ccc" }}>
+      As a Consultant at HighRadius, I help transform finance and accounting teams from traditional cost centers into strategic value drivers. Working with the world’s first autonomous finance platform, I deliver AI-powered solutions across the Order-to-Cash (O2C) cycle—spanning Collections, Electronic Invoicing & Payments, and AR optimization.
+      <br /><br />
+      By aligning cutting-edge SaaS with business outcomes, I enable organizations to unlock working capital, modernize operations, and drive measurable impact. Passionate about digital transformation, I thrive in fast-paced, client-facing environments—where business acumen meets problem-solving.
     </p>
   </AnimatedPage>
 );
+
 
 const Skills = () => {
   const skills = ["SQL", "Python", "Power BI", "JIRA", "Salesforce", "ERP"];
