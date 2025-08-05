@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react
 import { motion, AnimatePresence } from "framer-motion";
 import { Skills, Projects } from "./SkillsProjects";
 
-<Route path="/skills" element={<Skills/>}/>
-<Route path="/projects" element={<Projects/>}/>
+<Route path="/skills" element={<Skills />} />
+<Route path="/projects" element={<Projects />} />
 
 const pageVariants = {
   initial: { opacity: 0, y: 30 },
