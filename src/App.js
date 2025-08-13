@@ -51,7 +51,7 @@ const Contact = () => (
   <AnimatedPage>
     <h2>Contact</h2>
     <p>You can reach me at:</p>
-
+    <p>
       LinkedIn:{" "}
       <a
         href="https://www.linkedin.com/in/avinash1agarwal/"
