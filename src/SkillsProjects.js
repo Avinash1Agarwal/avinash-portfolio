@@ -26,8 +26,8 @@ export const Skills = () => (
       <ul>
         <li><strong>Languages:</strong> SQL, Python, C, C++</li>
         <li><strong>Tools:</strong> Power BI, Excel, PowerPoint, SQLyog</li>
-        <li><strong>Platforms:</strong> VS Code, JIRA, Salesforce</li>
-        <li><strong>ERP Systems:</strong> SAP S4 HANA, Oracle, Workday</li>
+        <li><strong>Platforms:</strong> VS Code, JIRA</li>
+        <li><strong>ERP Systems:</strong> SAP S4 HANA</li>
       </ul>
 
       <h3>🤝 Professional Skills</h3>
