@@ -39,7 +39,7 @@ const Home = () => (
       }}
     />
     <h1 style={{ fontSize: "2.5rem", marginBottom: "0.5rem" }}>Avinash Agarwal</h1>
-    <p style={{ fontWeight: "bold", color: "lightgray" }}>Product Implemetation Consultant @ HighRadius</p>
+    <p style={{ fontWeight: "bold", color: "lightgray" }}>Product Implementation Consultant @ HighRadius</p>
     <p style={{ maxWidth: "700px", margin: "1.5rem auto", lineHeight: 1.6, fontSize: "1rem", color: "#ccc" }}>
       As a Consultant at HighRadius, I help transform finance and accounting teams from traditional cost centers into strategic value drivers. Working with the world’s first autonomous finance platform, I deliver AI-powered solutions across the Order-to-Cash (O2C) cycle—spanning Collections, Electronic Invoicing & Payments, and AR optimization.
       <br /><br />
